@@ -1,22 +1,8 @@
-LaTeX document class for creating electronics data sheets
-=========================================================
+# Battery Datasheet Repository
 
-This repository contains a document class for the LaTeX typesetting
-system. It can be used to create good looking data sheets for electronic
-components.
+This repository holds the source LaTex files and final pdf documents for Battery Datasheets made for [TinyCircuits' Lithium Batteries](https://tinycircuits.com/collections/batteries).
 
-Inside the repository there is the [datasheet.cls](datasheet.cls) document
-class file and an example document [example.tex](example.tex).
 
-You can see an example of the output in [example.pdf](example.pdf).
+## License and Special Thanks to Petteri Aimonen
 
-To build, run:
-
-    latexmk -pdf
-
-Contributions
--------------
-
-While the basics are in place, this document class is still fairly new and
-real life usage will no doubt show what's still missing. Feel free to send
-pull requests for improvements.
+This repository has derivative work from a LaTex example .cls document class file and .tex sheet sourced from [Petteri Aimonen's repository](https://github.com/PetteriAimonen/latex-datasheet-template). Their orignal work is copied under the **original-copy/** directory as per the [LaTeX Project Public License v1.3c](latex-project.org/lppl/) Clause 6 directions. This derivative work maintains the same license.
